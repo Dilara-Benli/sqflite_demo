@@ -1,0 +1,16 @@
+async-asenkron çalışma, aynı anda iki iş gibi
+Future içine almam lazım, belli bir zaman sonra oluşacak
+db.then-ondan sonra ne yapayım
+await- süreç bir tamamlansın, sonra yoluna devam et
+getDatabasesPath()- sqflite, bize veritabanlarının yolunu veriyor, asenkron çalışıyor
+join fonk. - (yol,yolun ismi)
+version:1 - default
+primary key-bu alan tekrar edemez
+ekleme(insert), int olarak yapılır, 0 ve 1
+eklerken map olarak vermemiz gerek, Map<String,dynamic>, string-kolon ismi, dynamic-veri türüne göre
+delete'te de yine int döner ama 0,1,2... dönebilir
+update->rawUpdate de mevcut, rawDelete->delete de mevcut
+elevation-büyüklük
+FlatButton yerine TextButton
+AppBar'ın içinde actions(menü oluşturmak) -> column, row gibi içine birden fazla eleman ekleyebiliyoruz.
+silme, güncelleme gibi seçenekli yaapılar için enum sabitleri
